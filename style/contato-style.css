@@ -1,0 +1,64 @@
+
+.body-contato {
+    background: #C7BAD9 ;
+}
+
+.bg-contato {
+    background-color: #403C59;
+}
+
+.hover-contato:hover {
+    color: #c4b7e4;
+    text-shadow: #C7BAD9  0px 0px 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    font-family: "League Gothic", sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+h2 {
+    font-family: "League Gothic", sans-serif;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 38vw;
+    height: 40vh;
+    font-family: "League Gothic", sans-serif;
+    font-size: 1.8em;
+}
+
+.formulario {
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    border: none;
+}
+
+#msg-texto {
+    width: 450px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+input[placeholder], textarea[placeholder] {
+    font-size: 18px;
+    padding: 10px;
+  }
+  

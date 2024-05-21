@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style/menu-style.css">
+    <link rel="stylesheet" href="./style/contato-style.css">
+</head>
+<body class="body-contato">
+    <nav class="bg-contato">
+        <ul class="menu-nav">
+            <li class="menu-btn"><a class="hover-contato" href="index.html">Home</a></li>
+            <li class="menu-btn"><a class="hover-contato" href="index.html#sobre">Sobre</a></li>
+            <li class="menu-btn"><a class="hover-contato" href="portfolio.html">Portfolio</a></li>
+            <li class="menu-btn"><a class="hover-contato" href="index.html#formacao">Formação</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Contato</h1>
+            <h2>Para entrar em contato preencha o formulário abaixo:</h2>
+        </header>
+        <form id="form-contato" action="#">
+            <label for="name">Nome:</label>
+            <input class="formulario" type="text" id="name" name="nome" placeholder="Digite seu nome" required>
+            <label for="email">E-mail:</label>
+            <input class="formulario" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            <label for="assunto">Assunto:</label>
+            <input class="formulario" type="text" id="assunto" name="assunto" placeholder="Assunto" required>
+            <textarea id="msg-texto" rows="10" name="mensagem" placeholder="Mensagem" required></textarea>
+        </form>
+    </div>
+</body>
+</html>
